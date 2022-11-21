@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    background-color: bisque;
+}
+
+
+
+.button-box {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+#one {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #8b4513;
+    
+}
+
+#two {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+#three {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: aquamarine;
+}
+
+
+.results-box {
+    height: 100px;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#results {
+    
+}
+
+
+.scores-box {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+#scores-player, #scores-computer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+
